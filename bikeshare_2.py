@@ -34,7 +34,7 @@ def get_filters():
         print("\nGreat, let\'s have a look at {}!\n".format(city.title()))
 
     month = input(
-        "Which month would you like to look at? If you want to look at all months, please select all.\n").lower()
+        "Which month would you like to look at? If you want to look at all available months, please select all.\n").lower()
     while month not in ['all', 'january', 'february', 'march', 'april', 'may', 'june']:
         print("There is no data available for {}. Please enter another month (january to june).\n".format(
             month))
@@ -46,7 +46,7 @@ def get_filters():
             print('\nGreat, we will look for data in {}.\n'.format(month.title()))
 
     day = input(
-        "Which day of the week would you like to look at? If you want to look at all days, please select all.\n").lower()
+        "Which day of the week would you like to look at? If you want to look at all available days, please select all.\n").lower()
     while day not in ['all', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday']:
         print("There is no data available for {}. Please enter another day (monday to sunday).\n".format(
             day))
