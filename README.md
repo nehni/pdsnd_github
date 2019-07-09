@@ -19,3 +19,6 @@ udacity.com
 ### Nanodegree programm
 Udacity
 Programming for Data science
+
+### Owner
+nehni
