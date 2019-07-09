@@ -1,3 +1,5 @@
+""" This is a script to analyse the data of a bikeshare company """
+
 import time
 import pandas as pd
 import numpy as np
