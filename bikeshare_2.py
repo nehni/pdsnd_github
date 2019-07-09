@@ -1,4 +1,6 @@
-""" This is a script to analyse the data of a bikeshare company """
+""" This is a script to analyse the data of a bikeshare company
+    This work was created by nehni as part of the udacity programming for data science nanodegree
+"""
 
 import time
 import pandas as pd
